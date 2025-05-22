@@ -1,5 +1,3 @@
-# BCA-Sentiment-Analysis
-
 # 📱 Sentiment Analysis on BCA Mobile App
 
 This project focuses on analyzing user sentiment toward the **BCA Mobile Banking Application** using reviews from the Google Play Store. By leveraging the **IndoBERT** model, we classify user feedback into **positive**, **neutral**, or **negative** sentiments to gain insights into user perception and identify areas for improvement.
@@ -42,6 +40,9 @@ As internet and mobile banking usage continues to grow in Indonesia, understandi
 ---
 
 ## 🔁 Methodology
+The process consists of multiple steps from data preprocessing to model deployment. Below is the flowchart of the methodology used:
+
+![Methodology Flowchart](https://github.com/slviamrgrta/BCA-Sentiment-Analysis/blob/main/Metodologi.png)
 
 
 
