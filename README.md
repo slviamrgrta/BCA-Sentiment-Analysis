@@ -1,86 +1,67 @@
 # BCA-Sentiment-Analysis
 
-# 🤖 Sentiment Analysis on BCA Mobile App Reviews using IndoBERT
+# 📱 Sentiment Analysis on BCA Mobile App
 
-A natural language processing (NLP) project that applies sentiment analysis to user reviews of the BCA Mobile Banking app from the Google Play Store. The project uses the IndoBERT model to classify sentiments as **positive**, **neutral**, or **negative**, and provides insights on **factors influencing user satisfaction** and **the bank’s response behavior**.
+This project focuses on analyzing user sentiment toward the **BCA Mobile Banking Application** using reviews from the Google Play Store. By leveraging the **IndoBERT** model, we classify user feedback into **positive**, **neutral**, or **negative** sentiments to gain insights into user perception and identify areas for improvement.
 
 ---
 
-## 📌 Background
+## 🧠 Background
 
-- 📱 BCA Mobile is one of the most popular mobile banking apps in Indonesia.
-- 🔍 With the rise of user-generated reviews, analyzing sentiment can uncover valuable feedback to improve user experience.
-- 🇮🇩 This project focuses on sentiment classification in the Indonesian language using IndoBERT, a pre-trained BERT model for Bahasa Indonesia.
+As internet and mobile banking usage continues to grow in Indonesia, understanding user experiences through app reviews becomes increasingly valuable. Sentiment analysis helps businesses identify customer satisfaction levels and potential pain points in their digital platforms.
 
 ---
 
 ## 🎯 Objectives
 
-- Classify user reviews into **positive**, **neutral**, or **negative** sentiment.
-- Identify **key factors** affecting user satisfaction: performance, security, usability.
-- Evaluate **BCA’s response** to reviews and its impact on user perception.
-- Highlight the most **relevant reviews** using thumbs-up count as a metric.
+- Classify app reviews into **positive**, **neutral**, and **negative** sentiments
+- Identify key factors affecting user satisfaction (e.g., **usability**, **security**, **performance**)
+- Analyze how BCA responds to user reviews and its impact on user perception
+- Highlight the most relevant reviews based on thumbs-up count
 
 ---
 
-## 🧠 Methods & Tools
+## 📊 Dataset
 
-### 📚 Libraries & Tools
-- `Python`, `Pandas`, `NLTK`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-- `Transformers`, `IndoBERT`, `Huggingface`, `Tokenizers`
-
-### 🧪 Methodology
-1. Data collection from Google Play Store reviews
-2. Text preprocessing (normalization, stopword removal, tokenization)
-3. Sentiment modeling using **IndoBERT**
-4. Evaluation with Accuracy, F1-Score, Precision
-5. Visualization (word clouds, label distribution)
-6. Optional deployment interface
+- Source: Google Play Store reviews of **BCA Mobile**
+- Format: CSV containing `review`, `rating`, and `thumbs_up` columns
+- Total reviews analyzed: over 5,000
 
 ---
 
-## 📊 Results
+## 🛠️ Tools and Technologies
 
-| Sentiment | Proportion |
-|-----------|------------|
-| Positive  | 39.4%      |
-| Neutral   | 30.9%      |
-| Negative  | 29.7%      |
-
-- **Accuracy**: 92.35%  
-- **F1 Score**: 92.33%  
-- **Precision**:  
-  - Positive: 94%  
-  - Neutral: 96%  
-  - Negative: 86%
-
-> ✅ The model performs well in predicting sentiments, with particularly strong results for neutral and positive classes.
+- **Python**
+- **IndoBERT** (Transformer model for Bahasa Indonesia)
+- HuggingFace Transformers
+- Pandas, NumPy
+- NLTK (Text preprocessing)
+- Scikit-learn (Classification metrics)
+- Matplotlib, WordCloud (Visualization)
 
 ---
 
-## 📈 Visualization Samples
+## 🔁 Methodology
 
-- Word cloud of most frequent terms
-- Distribution of sentiment labels
-- Top reviews by thumbs-up (most helpful feedback)
+
 
 ---
 
-## 💡 Recommendations
+## 📈 Results and Evaluation
 
-1. **Improve App Performance** – address frequent issues like lag/crash.
-2. **Enhance Security Features** – respond to user concerns about data protection.
-3. **Faster Response to Reviews** – improve reputation by acknowledging feedback.
 
 ---
 
-## 🧾 Conclusion
+## 🧾 Conclusion and Recommendations
 
-- Most users are satisfied with BCA Mobile’s ease of use.
-- Key concerns lie in **performance** and **security**.
-- A quick, proactive response by the bank to user reviews significantly improves public perception and trust.
+- The majority of user sentiment is **positive**, indicating general satisfaction.
+- **Performance issues** and **security concerns** were the most common sources of negative feedback.
+- Users value **ease of use**, which significantly influences positive sentiment.
+- BCA’s **fast response** to feedback helps improve perception and customer loyalty.
+- It is recommended to:
+  - Improve app **performance** and reduce crashes
+  - Add more **security features**
+  - Enhance the **responsiveness** to user reviews
 
 ---
-
-## 📁 Project Structure
 
