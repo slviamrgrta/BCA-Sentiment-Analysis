@@ -66,3 +66,16 @@ The model was evaluated using accuracy, precision, recall, and F1-score. The per
 
 ---
 
+## 🚀 Deployment
+
+To make the sentiment analysis model accessible to users, we deployed it as a simple web-based interface using [Streamlit](https://streamlit.io/). This allows users to input a review and instantly see the sentiment classification result.
+
+Login Page
+![Login Page](https://github.com/slviamrgrta/BCA-Sentiment-Analysis/blob/main/Login%20Page.png)
+
+Sentiment Page
+![Sentiment Page](https://github.com/slviamrgrta/BCA-Sentiment-Analysis/blob/main/Sentiment%20Page.png)
+
+Result
+![Result Page](https://github.com/slviamrgrta/BCA-Sentiment-Analysis/blob/main/Hasil%20Sentiment.png)
+
