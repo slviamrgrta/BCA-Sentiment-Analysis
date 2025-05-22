@@ -48,6 +48,7 @@ The process consists of multiple steps from data preprocessing to model deployme
 
 ## 📈 Results and Evaluation
 The model was evaluated using accuracy, precision, recall, and F1-score. The performance is summarized below:
+
 ![Model Evaluation Report](https://github.com/slviamrgrta/BCA-Sentiment-Analysis/blob/main/Hasil.png)
 
 ---
